@@ -70,7 +70,7 @@ export default defineComponent({
     },
     dot: function (): void {
       if (this.calculator.current.indexOf('.') === -1) {
-        this.calculator.append('.');
+        this.append('.');
       }
     },
     setOperator: function (operator: string): void {
